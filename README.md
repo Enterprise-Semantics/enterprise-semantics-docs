@@ -6,7 +6,7 @@ Documentation in this repository is generated where possible from the structured
 
 ## Status
 
-**First + second content tranches (v0.1.0 Value Stream + v0.2.0 Agentic).** Value Stream documentation landed via VS-D1a on 2026-09-23 (6 files: concepts/value-stream.md, concepts/value-stage.md, architecture/value-stream-boundary.md, architecture/value-stream-process-boundary.md, architecture/value-realization-boundary.md, relationships/value-stream-relationships.md).
+**First + second + third content tranches (v0.1.0 Value Stream + v0.2.0 Agentic + v0.3.0 Agentic Value Stream).** Value Stream documentation landed via VS-D1a on 2026-09-23 (6 files: concepts/value-stream.md, concepts/value-stage.md, architecture/value-stream-boundary.md, architecture/value-stream-process-boundary.md, architecture/value-realization-boundary.md, relationships/value-stream-relationships.md). Agentic documentation landed via VS-D1a (9 files: concepts/agent.md, concepts/agentic.md, concepts/intent.md, concepts/authority.md, concepts/action.md, architecture/agentic-boundary.md, architecture/agentic-autonomous-boundary.md, architecture/agentic-execution-boundary.md, relationships/agentic-relationships.md). Agentic Value Stream documentation landed via VS-D1a (5 files: concepts/agentic-value-stream.md, architecture/agentic-value-stream-boundary.md, architecture/value-stream-agentic-boundary.md, architecture/agentic-value-realization.md, relationships/agentic-value-stream-relationships.md).
 
 ## What lives here
 
