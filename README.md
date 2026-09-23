@@ -6,7 +6,7 @@ Documentation in this repository is generated where possible from the structured
 
 ## Status
 
-**Skeleton (v0.0.1).** Content lands in Phase 4.8 (auto-generated Markdown views of the seed) and Phase 6 (concept-specific guides).
+**First content tranche (v0.1.0).** Value Stream documentation landed via VS-D1a on 2026-09-23 (6 files: concepts/value-stream.md, concepts/value-stage.md, architecture/value-stream-boundary.md, architecture/value-stream-process-boundary.md, architecture/value-realization-boundary.md, relationships/value-stream-relationships.md).
 
 ## What lives here
 
