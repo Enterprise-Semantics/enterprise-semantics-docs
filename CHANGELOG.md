@@ -1,3 +1,23 @@
+## [0.3.0] ; 2026-09-23 ; CR-ES-004 VS-D1a Agentic documentation
+
+### Added (5 concept docs + 3 architecture docs + 1 relationships doc)
+
+- concepts/agent.md ;;; Agent entity per CR-ES-004 §5
+- concepts/agentic.md ;;; Agentic semantic property per CR-ES-004 §6
+- concepts/intent.md ;;; Intent concept per CR-ES-004 §7
+- concepts/authority.md ;;; Authority concept per CR-ES-004 §8
+- concepts/action.md ;;; Action concept per CR-ES-004 §9
+- architecture/agentic-boundary.md ;;; Agentic vs Automation boundary per CR-ES-004 §12 + ADR-ES-004 §8
+- architecture/agentic-autonomous-boundary.md ;;; Agentic vs Autonomous boundary per CR-ES-004 §14 + ADR-ES-004 §9
+- architecture/agentic-execution-boundary.md ;;; Agentic Workflow + Operations + Value Stream boundaries per CR-ES-004 §15-§17
+- relationships/agentic-relationships.md ;;; 11 Agentic predicates table per CR-ES-004 §10
+
+### Cardinal rules
+
+- Author: Emmanuel A. Otchere on all 9 files
+- D-004 clean ;;; 0 forbidden glyphs on all 9 files
+- No vendor-specific material from embargoed sources
+
 # Changelog
 
 All notable changes to this repository are documented in this file. Dates use
