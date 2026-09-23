@@ -1,3 +1,19 @@
+## [0.5.0] ; 2026-09-23 ; VS-D1a ;;; 5 Agentic Workflow documentation files per CR-ES-006 §15 + §16 + §23 + ADR-ES-006 §14 + §20 + §26
+
+### Added
+
+- concepts/agentic-workflow.md ;;; 18 sections per CR-ES-006 §22
+- architecture/agentic-workflow-boundary.md ;;; 8 boundary distinctions
+- architecture/process-workflow-agentic-boundary.md ;;; Process <> Workflow <> Agentic Workflow layer boundary
+- architecture/agentic-execution-extension.md ;;; Profile scope extension per CR-ES-006 §21
+- relationships/agentic-workflow-relationships.md ;;; 7 canonical predicates
+
+### Cardinal rules
+
+- Author: Emmanuel A. Otchere
+- D-004 clean ;;; 0 forbidden glyphs
+- No vendor-specific material from embargoed sources
+
 ## [0.4.0] ; 2026-09-23 ; VS-D1a ;; 5 Agentic Value Stream documentation files (1 concept + 3 architecture + 1 relationships) per CR-ES-005 §15 + §16 + §23
 
 ### Added
