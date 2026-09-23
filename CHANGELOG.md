@@ -1,3 +1,19 @@
+## [0.4.0] ; 2026-09-23 ; VS-D1a ;; 5 Agentic Value Stream documentation files (1 concept + 3 architecture + 1 relationships) per CR-ES-005 §15 + §16 + §23
+
+### Added
+
+- concepts/agentic-value-stream.md ;;; definition + 13 sections (definition, semantic purpose, Value Stream inheritance, agentic characteristics, agentic scope, authority and intent, mixed realization, human intervention, AI boundary, automation boundary, autonomy boundary, process boundary, workflow boundary, examples, conformance, provenance)
+- architecture/agentic-value-stream-boundary.md ;;; 6 boundary distinctions (AI / Automation / Autonomous / Agentic Workflow / Agentic Operations / Process+Workflow)
+- architecture/value-stream-agentic-boundary.md ;;; Value Stream inheritance principle ;; mandatory Value Stream properties preserved
+- architecture/agentic-value-realization.md ;;; architectural hierarchy (WSF -> Value Stream -> ES Agentic Value Stream -> OpenDEA specialisation)
+- relationships/agentic-value-stream-relationships.md ;;; 3 governed predicates (specializes ;; engages ;; agent-realizes)
+
+### Cardinal rules
+
+- Author: Emmanuel A. Otchere on all 5 files
+- D-004 clean ;; 0 forbidden glyphs
+- No vendor-specific material from embargoed sources
+
 ## [0.3.0] ; 2026-09-23 ; CR-ES-004 VS-D1a Agentic documentation
 
 ### Added (5 concept docs + 3 architecture docs + 1 relationships doc)
