@@ -1,3 +1,19 @@
+## [0.6.0] ; 2026-09-23 ; VS-D1a ;;; 5 Agentic Operations documentation files per CR-ES-007 §19 + ADR-ES-007 §14 + §20 + §26
+
+### Added
+
+- concepts/agentic-operations.md ;;; 17 sections per CR-ES-007 §19
+- architecture/agentic-operations-boundary.md ;;; 7 boundary distinctions
+- architecture/agentic-operational-loop.md ;;; 8-step operational control loop
+- architecture/agentic-workflow-operations-boundary.md ;;; Agentic Workflow <> Agentic Operations
+- relationships/agentic-operations-relationships.md ;;; 9 canonical predicates
+
+### Cardinal rules
+
+- Author: Emmanuel A. Otchere
+- D-004 clean ;;; 0 forbidden glyphs
+- No vendor-specific material from embargoed sources
+
 ## [0.5.0] ; 2026-09-23 ; VS-D1a ;;; 5 Agentic Workflow documentation files per CR-ES-006 §15 + §16 + §23 + ADR-ES-006 §14 + §20 + §26
 
 ### Added
