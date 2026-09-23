@@ -1,3 +1,19 @@
+## [0.7.0] ; 2026-09-23 ; VS-D1a ;;; 4 Autonomous Operations documentation files per CR-ES-008 §21 + ADR-ES-008 §14 + §25 + §26
+
+### Added
+
+- concepts/autonomous-operations.md ;;; 19 sections per CR-ES-008 §21
+- architecture/autonomous-operations-boundary.md ;;; 7 boundary distinctions
+- architecture/autonomous-operational-loop.md ;;; 11-step operational control loop with boundary
+- architecture/agentic-vs-autonomous-operations.md ;;; orthogonal semantic dimensions
+- relationships/autonomous-operations-relationships.md ;;; 10 canonical predicates
+
+### Cardinal rules
+
+- Author: Emmanuel A. Otchere
+- D-004 clean ;;; 0 forbidden glyphs
+- No vendor-specific material from embargoed sources
+
 ## [0.6.0] ; 2026-09-23 ; VS-D1a ;;; 5 Agentic Operations documentation files per CR-ES-007 §19 + ADR-ES-007 §14 + §20 + §26
 
 ### Added
