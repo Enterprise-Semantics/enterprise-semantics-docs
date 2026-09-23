@@ -14,6 +14,23 @@
 - D-004 clean ;;; 0 forbidden glyphs
 - No vendor-specific material from embargoed sources
 
+## [0.8.0] ; 2026-09-23 ; VS-D1a ;;; 5 Autonomous Value Stream documentation files per CR-ES-009 §22 + ADR-ES-009 §14 + §22 + §23
+
+### Added
+
+- concepts/autonomous-value-stream.md ;;; 19 sections per CR-ES-009 §22
+- architecture/autonomous-value-stream-boundary.md ;;; 7 boundary distinctions
+- architecture/autonomous-value-realization.md ;;; 11-step value-realization boundary
+- architecture/agentic-vs-autonomous-value-stream.md ;;; orthogonal semantic dimensions
+- architecture/value-stream-autonomous-operations-boundary.md ;;; AVS <> AO boundary
+- relationships/autonomous-value-stream-relationships.md ;;; 12 canonical predicates
+
+### Cardinal rules
+
+- Author: Emmanuel A. Otchere
+- D-004 clean ;;; 0 forbidden glyphs
+- No vendor-specific material from embargoed sources
+
 ## [0.6.0] ; 2026-09-23 ; VS-D1a ;;; 5 Agentic Operations documentation files per CR-ES-007 §19 + ADR-ES-007 §14 + §20 + §26
 
 ### Added
