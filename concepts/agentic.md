@@ -11,7 +11,7 @@ Per CR-ES-004 §6 + ADR-ES-004 §4.1 + §6:
 
 ## Semantic type
 
-**SemanticProperty** (not Entity subtype) ;;; per ADR-ES-004 §6 ;;; Agentic is a mode of operation, not a universal Entity subtype. This prevents the ontology from unnecessarily turning every agentic construct into a new top-level entity class.
+**SemanticProperty** (not Entity subtype), per ADR-ES-004 §6, Agentic is a mode of operation, not a universal Entity subtype. This prevents the ontology from unnecessarily turning every agentic construct into a new top-level entity class.
 
 ## Distinctions
 
@@ -26,31 +26,31 @@ Per ADR-ES-004 §8-§10 + §14:
 
 Per ADR-ES-004 §7.1-§7.6:
 
-1. **Delegated Intent** ;;; an objective, intent, goal, or desired outcome is delegated to the Agent
-2. **Context Interpretation** ;;; the Agent interprets relevant context rather than executing predefined sequences
-3. **Action Selection** ;;; the Agent can select, sequence, or coordinate actions
-4. **Bounded Authority** ;;; the Agent operates within explicit or implicit authority boundaries
-5. **Outcome Orientation** ;;; actions are directed toward an intended outcome
-6. **Adaptation** ;;; the Agent may alter its execution path in response to changing conditions
+1. **Delegated Intent**, an objective, intent, goal, or desired outcome is delegated to the Agent
+2. **Context Interpretation**, the Agent interprets relevant context rather than executing predefined sequences
+3. **Action Selection**, the Agent can select, sequence, or coordinate actions
+4. **Bounded Authority**, the Agent operates within explicit or implicit authority boundaries
+5. **Outcome Orientation**, actions are directed toward an intended outcome
+6. **Adaptation**, the Agent may alter its execution path in response to changing conditions
 
 ## Human participation does not invalidate Agentic semantics
 
-Per ADR-ES-004 §16 ;;; human-in/on/over-the-loop patterns all represent agentic operating patterns.
+Per ADR-ES-004 §16, human-in/on/over-the-loop patterns all represent agentic operating patterns.
 
 ## Architectural invariants
 
-Per ADR-ES-004 §20 ;;; 10 invariants AG-INV-001..010:
+Per ADR-ES-004 §20, 10 invariants AG-INV-001..010:
 
-- AG-INV-001 ;;; Agentic != AI
-- AG-INV-002 ;;; Agentic != Automation
-- AG-INV-003 ;;; Agentic != Autonomous
-- AG-INV-004 ;;; Agent != AI Agent
-- AG-INV-005 ;;; Agentic operation requires delegated intent or objective
-- AG-INV-006 ;;; Agentic operation occurs within defined authority
-- AG-INV-007 ;;; Agentic operation is outcome-oriented
-- AG-INV-008 ;;; Human participation does not invalidate Agentic semantics
-- AG-INV-009 ;;; Agentic Value Stream is a specialization of Value Stream, not a replacement for Value Stream (held for ADR-ES-005)
-- AG-INV-010 ;;; Autonomy requires separate semantic grounding (ADR-ES-007)
+- AG-INV-001, Agentic != AI
+- AG-INV-002, Agentic != Automation
+- AG-INV-003, Agentic != Autonomous
+- AG-INV-004, Agent != AI Agent
+- AG-INV-005, Agentic operation requires delegated intent or objective
+- AG-INV-006, Agentic operation occurs within defined authority
+- AG-INV-007, Agentic operation is outcome-oriented
+- AG-INV-008, Human participation does not invalidate Agentic semantics
+- AG-INV-009, Agentic Value Stream is a specialization of Value Stream, not a replacement for Value Stream (held for ADR-ES-005)
+- AG-INV-010, Autonomy requires separate semantic grounding (ADR-ES-007)
 
 ## Governance
 

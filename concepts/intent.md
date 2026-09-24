@@ -9,23 +9,23 @@ Per CR-ES-004 §7 + ADR-ES-004 §15:
 
 ## Distinctions
 
-Per CR-ES-004 §7 ;;; Intent shall remain distinct from:
+Per CR-ES-004 §7, Intent shall remain distinct from:
 
-- **Goal** ;;; Intent is broader ;;; may include communicated direction without being a quantified target
-- **Requirement** ;;; Requirement is a necessary condition ;;; Intent is a desired direction
-- **Instruction** ;;; Instruction is a prescribed action or procedure ;;; Intent is a communicated desired direction
-- **Policy** ;;; Policy is a constraint or rule ;;; Intent is a desired direction
-- **Action** ;;; Action is performed or initiated ;;; Intent guides action
+- **Goal**, Intent is broader, may include communicated direction without being a quantified target
+- **Requirement**, Requirement is a necessary condition, Intent is a desired direction
+- **Instruction**, Instruction is a prescribed action or procedure, Intent is a communicated desired direction
+- **Policy**, Policy is a constraint or rule, Intent is a desired direction
+- **Action**, Action is performed or initiated, Intent guides action
 
 The exact semantic relationship among these concepts may be refined by subsequent governance.
 
 ## Relationships
 
-- `Intent guides Action` ;;; per CR-ES-004 §10 ;;; Action is directed toward the Intent's communicated desired direction or purpose
+- `Intent guides Action`, per CR-ES-004 §10, Action is directed toward the Intent's communicated desired direction or purpose
 
 ## Agent interpretation
 
-Per ADR-ES-004 §7.1 ;;; an Agent interprets a delegated Intent. The interpretive obligation is established by the receipt of the Intent ;;; per `Agent receives Intent` (CR-ES-004 §10).
+Per ADR-ES-004 §7.1, an Agent interprets a delegated Intent. The interpretive obligation is established by the receipt of the Intent, per `Agent receives Intent` (CR-ES-004 §10).
 
 ## Governance
 
@@ -35,9 +35,9 @@ Per ADR-ES-004 §7.1 ;;; an Agent interprets a delegated Intent. The interpretiv
 
 ## See also
 
-- [Agent](./agent.md) ;;; Intent is received and interpreted by an Agent
-- [Action](./action.md) ;;; Intent guides Action
-- [Authority](./authority.md) ;;; Intent is interpreted within bounded authority
+- [Agent](./agent.md), Intent is received and interpreted by an Agent
+- [Action](./action.md), Intent guides Action
+- [Authority](./authority.md), Intent is interpreted within bounded authority
 
 ## Authored by
 

@@ -30,7 +30,7 @@ Per CR-ES-006 §5 + ADR-ES-006 §5 ;; the canonical relationship is:
 Agentic Workflow -|-> Workflow
 ```
 
-Agentic Workflow inherits the Workflow semantics ;;; it does not
+Agentic Workflow inherits the Workflow semantics, it does not
 redefine Workflow.
 
 ## Process boundary
@@ -42,7 +42,7 @@ distinct:
 Process -> realized-through -> Workflow (or Agentic Workflow)
 ```
 
-Agentic Workflow may realise or support a Process ;;; but Agentic
+Agentic Workflow may realise or support a Process, but Agentic
 Workflow is NOT a Process.
 
 ## Activity boundary

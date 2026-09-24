@@ -5,8 +5,8 @@ Per CR-ES-008 §6 + ADR-ES-008 §2.
 ## Definition
 
 > Autonomous Operations are operations capable of independently
-> sensing ;; interpreting ;; deciding ;; coordinating ;; executing ;;;
-> and adapting operational behavior within defined objectives ;;;
+> sensing ;; interpreting ;; deciding ;; coordinating ;; executing, 
+> and adapting operational behavior within defined objectives, 
 > authority ;; policies ;; and constraints without requiring human
 > intervention for every operational decision or action.
 

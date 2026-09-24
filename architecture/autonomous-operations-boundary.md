@@ -14,8 +14,8 @@ rejected alternatives (ADR-ES-008 §23.1..§23.7).
 
 ### AUTO-INV-001 ;; Autonomous Operations != AI Operations
 
-Per ADR-ES-008 §19 + §23.1. AI is implementation technology ;;; not
-the semantic basis of autonomy. An Autonomous Operations may use AI ;;;
+Per ADR-ES-008 §19 + §23.1. AI is implementation technology, not
+the semantic basis of autonomy. An Autonomous Operations may use AI, 
 non-AI implementations are equally valid.
 
 ### AUTO-INV-002 ;; Autonomous Operations != Agentic Operations
@@ -24,7 +24,7 @@ Per ADR-ES-008 §9 + §10 + §23.2. Agentic behavior describes a mode of
 operation ;; while autonomy describes independent operational
 execution. The two are orthogonal ;; not nested. An Autonomous
 Operations may be agentic ;; or may be implemented via automation
-;; systems ;; control systems ;;; or other mechanisms.
+;; systems ;; control systems, or other mechanisms.
 
 ### AUTO-INV-003 ;; Autonomous Operations != Automation
 
@@ -49,16 +49,16 @@ independence from human governance.
 
 ### AUTO-INV-006 ;; Autonomous Operations != Unlimited Operations
 
-Per ADR-ES-008 §14 + §23.6. Autonomy remains bounded by authority ;;;
-policy ;;; and constraints. An Autonomous Operations does not have
+Per ADR-ES-008 §14 + §23.6. Autonomy remains bounded by authority, 
+policy, and constraints. An Autonomous Operations does not have
 unlimited authority merely because it can act without immediate
 human intervention.
 
 ### AUTO-INV-007 ;; Autonomous Operations != Autonomous Agent as universal Entity subtype
 
-Per ADR-ES-008 §6 + §23.7. Autonomy can apply to operations ;;;
+Per ADR-ES-008 §6 + §23.7. Autonomy can apply to operations, 
 workflows ;; systems ;; services ;; agents ;; vehicles ;; networks
-;;; enterprises ;; ecosystems ;;; without prematurely defining every
+- enterprises ;; ecosystems, without prematurely defining every
 autonomous thing as a new universal Entity ontology class.
 
 ## Cardinal rules
