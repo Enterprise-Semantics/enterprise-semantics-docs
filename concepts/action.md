@@ -9,32 +9,32 @@ Per CR-ES-004 §9 + ADR-ES-004 §14:
 
 ## Semantic unit for agentic action selection
 
-Per ADR-ES-004 §17 ;;; Action is the semantic unit required to describe agentic action selection.
+Per ADR-ES-004 §17, Action is the semantic unit required to describe agentic action selection.
 
 ## Distinctions
 
-Per CR-ES-004 §9 ;;; Action shall remain distinct from:
+Per CR-ES-004 §9, Action shall remain distinct from:
 
-- **Process** ;;; Action is the semantic unit ;;; Process is the organized execution pattern
-- **Activity** ;;; Action is intentional ;;; Activity is execution-level
-- **Task** ;;; Action is broader than Task ;;; a Task is one form of Action
-- **Workflow** ;;; Workflow is coordinated execution ;;; Action is the unit being coordinated
+- **Process**, Action is the semantic unit, Process is the organized execution pattern
+- **Activity**, Action is intentional, Activity is execution-level
+- **Task**, Action is broader than Task, a Task is one form of Action
+- **Workflow**, Workflow is coordinated execution, Action is the unit being coordinated
 
 ## Relationships
 
-- `Intent guides Action` ;;; per CR-ES-004 §10 ;;; Action is directed toward the Intent's purpose
-- `Authority constrains Action` ;;; per CR-ES-004 §10 ;;; Action is limited by the Authority scope
-- `Agent selects Action` ;;; per CR-ES-004 §10 ;;; Agent chooses among possible actions
-- `Agent coordinates Action` ;;; per CR-ES-004 §10 ;;; Agent sequences Actions
-- `Action action-produces Outcome` ;;; per CR-ES-004 §10 ;;; Action results in the Outcome
+- `Intent guides Action`, per CR-ES-004 §10, Action is directed toward the Intent's purpose
+- `Authority constrains Action`, per CR-ES-004 §10, Action is limited by the Authority scope
+- `Agent selects Action`, per CR-ES-004 §10, Agent chooses among possible actions
+- `Agent coordinates Action`, per CR-ES-004 §10, Agent sequences Actions
+- `Action action-produces Outcome`, per CR-ES-004 §10, Action results in the Outcome
 
 ## The 3 instruction-decision-action patterns
 
-Per ADR-ES-004 §17 ;;; the agentic decision boundary distinguishes:
+Per ADR-ES-004 §17, the agentic decision boundary distinguishes:
 
-- **Instruction** ;;; prescribed action or procedure
-- **Decision** ;;; selection among possible actions or responses
-- **Agentic Decision** ;;; context-sensitive action selection performed by an Agent within delegated authority toward an intended outcome
+- **Instruction**, prescribed action or procedure
+- **Decision**, selection among possible actions or responses
+- **Agentic Decision**, context-sensitive action selection performed by an Agent within delegated authority toward an intended outcome
 
 The 3 patterns:
 
@@ -51,7 +51,7 @@ Execution       Context           Decision / Action Selection
                                 Outcome
 ```
 
-The middle and right patterns are the agentic pattern ;;; left is conventional automation.
+The middle and right patterns are the agentic pattern, left is conventional automation.
 
 ## Governance
 
@@ -61,9 +61,9 @@ The middle and right patterns are the agentic pattern ;;; left is conventional a
 
 ## See also
 
-- [Agent](./agent.md) ;;; Agent selects and coordinates Action
-- [Intent](./intent.md) ;;; Intent guides Action
-- [Authority](./authority.md) ;;; Authority constrains Action
+- [Agent](./agent.md), Agent selects and coordinates Action
+- [Intent](./intent.md), Intent guides Action
+- [Authority](./authority.md), Authority constrains Action
 
 ## Authored by
 

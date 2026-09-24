@@ -5,9 +5,9 @@ Per CR-ES-008 §15 + ADR-ES-008 §5 + §15.
 ## Scope
 
 The autonomous operational control loop is the canonical semantic loop
-that governs how Autonomous Operations independently senses ;;;
-interprets ;;; decides ;;; coordinates ;;; executes ;;; observes ;;;
-and adapts within explicit objectives ;;; authority ;;; and policy
+that governs how Autonomous Operations independently senses, 
+interprets, decides, coordinates, executes, observes, 
+and adapts within explicit objectives, authority, and policy
 boundaries.
 
 ## The 11-step loop with boundary
@@ -50,7 +50,7 @@ Adapt
         +-----------------> Operational Context
 ```
 
-The loop iterates continuously ;; bounded by intent ;;; authority ;;;
+The loop iterates continuously ;; bounded by intent, authority, 
 and policy boundaries.
 
 ## Bounded autonomous operating mode
@@ -83,7 +83,7 @@ Outcome
 
 Per ADR-ES-008 §7 + §23 ;; autonomous behaviour must materially
 participate in operational decision and action. Mere presence of an
-Agent ;; an AI system ;;; or an Automation does not satisfy the
+Agent ;; an AI system, or an Automation does not satisfy the
 autonomy criterion (per AOP-AUTO-CON-002 + AOP-AUTO-CON-003).
 
 ## Cardinal rules

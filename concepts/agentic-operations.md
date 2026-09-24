@@ -4,10 +4,10 @@ Per CR-ES-007 §6 + ADR-ES-007 §2.
 
 ## Definition
 
-> Agentic Operations are operations in which operational sensing ;;;
-> interpretation ;;; decision ;;; coordination ;;; adaptation ;;; or
+> Agentic Operations are operations in which operational sensing, 
+> interpretation, decision, coordination, adaptation, or
 > execution is materially performed through agentic behavior within
-> defined intent ;;; authority ;;; and policy boundaries.
+> defined intent, authority, and policy boundaries.
 
 ## Semantic grounding
 
