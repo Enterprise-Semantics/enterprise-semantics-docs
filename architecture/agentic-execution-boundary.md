@@ -1,6 +1,6 @@
 # Agentic Execution Pattern Boundary
 
-Per CR-ES-004 §11 + ADR-ES-004 §11 ;;; the boundary between Agentic execution and conventional Workflow execution.
+Per CR-ES-004 §11 + ADR-ES-004 §11, the boundary between Agentic execution and conventional Workflow execution.
 
 ## Two patterns
 
@@ -19,7 +19,7 @@ conventional execution (predefined steps)
 Workflow
   :
   v
-MAY be realized agentically (CR-ES-004 establishes boundary ;;; not AgenticWorkflow canonical concept)
+MAY be realized agentically (CR-ES-004 establishes boundary, not AgenticWorkflow canonical concept)
   :
   v
 agentic participation in:
@@ -36,9 +36,9 @@ agentic participation in:
 
 Per ADR-ES-004 §11:
 
-- **Workflow may be realized agentically** ;;; but AgenticWorkflow is NOT a canonical semantic concept in CR-ES-004
-- **Agentic Workflow is established by ADR-ES-006** ;;; CR-ES-004 only establishes the preparatory boundary
-- **Agentic Workflow boundary is documented ;;; no canonical specialization yet** ;;; per CR-ES-004 §3 + §15
+- **Workflow may be realized agentically**, but AgenticWorkflow is NOT a canonical semantic concept in CR-ES-004
+- **Agentic Workflow is established by ADR-ES-006**, CR-ES-004 only establishes the preparatory boundary
+- **Agentic Workflow boundary is documented, no canonical specialization yet**, per CR-ES-004 §3 + §15
 
 ## Operations boundary (parallel)
 
@@ -51,7 +51,7 @@ Operations
 may be performed agentically
   :
   v
-Agentic Operations is NOT canonical in CR-ES-004 ;;; boundary established for ADR-ES-007
+Agentic Operations is NOT canonical in CR-ES-004, boundary established for ADR-ES-007
 ```
 
 ## Value Stream boundary (preliminary)
@@ -63,7 +63,7 @@ Value Stream
 uses / involves --> Agent
   :
   v
-Agentic Value Stream is NOT canonical in CR-ES-004 ;;; boundary established for ADR-ES-005
+Agentic Value Stream is NOT canonical in CR-ES-004, boundary established for ADR-ES-005
 ```
 
 ## What is established by CR-ES-004
@@ -76,8 +76,8 @@ Agentic Value Stream is NOT canonical in CR-ES-004 ;;; boundary established for 
 
 - [Agent](../concepts/agent.md)
 - [Agentic](../concepts/agentic.md)
-- [Value Stream](./value-stream-process-boundary.md) ;;; parallel boundary documentation
-- [Value Realization](./value-realization-boundary.md) ;;; parallel boundary documentation
+- [Value Stream](./value-stream-process-boundary.md), parallel boundary documentation
+- [Value Realization](./value-realization-boundary.md), parallel boundary documentation
 
 ## Governance
 

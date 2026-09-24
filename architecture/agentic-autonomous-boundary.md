@@ -1,6 +1,6 @@
 # Agentic vs Autonomous Boundary
 
-Per CR-ES-004 §14 + ADR-ES-004 §9 ;;; the boundary between Agentic and Autonomous is foundational.
+Per CR-ES-004 §14 + ADR-ES-004 §9, the boundary between Agentic and Autonomous is foundational.
 
 ## Distinction
 
@@ -31,17 +31,17 @@ MAY evolve toward Autonomous (separately governed)
 
 Per ADR-ES-004 §9 + AG-INV-003:
 
-- **Agentic -> Autonomous** ;;; NOT implied as semantic identity
-- **Autonomy requires separate semantic grounding** ;;; per ADR-ES-004 §9 + AG-INV-010 ;;; governed by prospective ADR-ES-007 (Autonomous Operations)
+- **Agentic -> Autonomous**, NOT implied as semantic identity
+- **Autonomy requires separate semantic grounding**, per ADR-ES-004 §9 + AG-INV-010, governed by prospective ADR-ES-007 (Autonomous Operations)
 
 ## What IS allowed
 
-- Agentic may operate with limited autonomy ;;; per ADR-ES-004 §9 ;;; but limited autonomy does NOT make an Agentic construct semantically equivalent to Autonomous
-- Agentic may evolve toward Autonomous ;;; the transition requires separate semantic governance
+- Agentic may operate with limited autonomy, per ADR-ES-004 §9, but limited autonomy does NOT make an Agentic construct semantically equivalent to Autonomous
+- Agentic may evolve toward Autonomous, the transition requires separate semantic governance
 
 ## Why this distinction matters
 
-Per ADR-ES-004 §9 ;;; conflating Agentic with Autonomous creates ambiguity when modeling enterprise operating behavior. Agentic semantics establishes the bounded operation ;;; Autonomous semantics establishes the self-sustaining operation. These are different things.
+Per ADR-ES-004 §9, conflating Agentic with Autonomous creates ambiguity when modeling enterprise operating behavior. Agentic semantics establishes the bounded operation, Autonomous semantics establishes the self-sustaining operation. These are different things.
 
 ## Out of scope for CR-ES-004
 

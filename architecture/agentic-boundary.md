@@ -1,6 +1,6 @@
 # Agentic Boundary (vs Automation)
 
-Per CR-ES-004 §12 + ADR-ES-004 §8 ;;; the boundary between Agentic operation and Automation is foundational.
+Per CR-ES-004 §12 + ADR-ES-004 §8, the boundary between Agentic operation and Automation is foundational.
 
 ## Two patterns
 
@@ -37,21 +37,21 @@ Outcome
 
 Per ADR-ES-004 §8 + AG-INV-002:
 
-- **Automation != Agentic** ;;; per ADR-ES-004 §8 ;;; conventional automated workflow may remain non-agentic
-- **Agentic operation may use Automation** ;;; automation is a tool ;;; agentic operation may invoke it
+- **Automation != Agentic**, per ADR-ES-004 §8, conventional automated workflow may remain non-agentic
+- **Agentic operation may use Automation**, automation is a tool, agentic operation may invoke it
 
 ## What is NOT Agentic
 
-- Pure predefined-rule execution (Trigger -> Rule -> Action) ;;; no contextual interpretation
-- Pure event-driven scripts ;;; no action selection
-- Pure deterministic pipelines ;;; no outcome orientation (completion-oriented, not outcome-oriented)
+- Pure predefined-rule execution (Trigger -> Rule -> Action), no contextual interpretation
+- Pure event-driven scripts, no action selection
+- Pure deterministic pipelines, no outcome orientation (completion-oriented, not outcome-oriented)
 
 ## What IS Agentic
 
-- Context-sensitive action selection ;;; Agent selects Action based on Context
-- Outcome-oriented execution ;;; actions are directed toward an intended outcome, not mere completion
-- Authority-bounded action ;;; Agent operates within explicit or implicit authority boundaries
-- Adaptive execution ;;; Agent may alter execution path in response to changing conditions
+- Context-sensitive action selection, Agent selects Action based on Context
+- Outcome-oriented execution, actions are directed toward an intended outcome, not mere completion
+- Authority-bounded action, Agent operates within explicit or implicit authority boundaries
+- Adaptive execution, Agent may alter execution path in response to changing conditions
 
 ## Cross-references
 

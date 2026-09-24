@@ -10,12 +10,12 @@ Documentation in this repository is generated where possible from the structured
 
 ## What lives here
 
-- `docs/foundational/` ;;; 12 Foundational Principles (style guide: spec tone, no narration).
-- `docs/conceptual/` ;;; conceptual guides (Capability, Value Stream, Agentic, Autonomous, Operations, Closed Loop, ...).
-- `docs/implementation/` ;;; how to consume enterprise-semantics from WSF, OpenDEA, custom systems.
-- `docs/tutorials/` ;;; step-by-step examples.
-- `docs/glossary/` ;;; generated from the semantic source; reviewed manually.
-- `docs/lifecycle/` ;;; lifecycle model documentation.
+- `docs/foundational/`, 12 Foundational Principles (style guide: spec tone, no narration).
+- `docs/conceptual/`, conceptual guides (Capability, Value Stream, Agentic, Autonomous, Operations, Closed Loop, ...).
+- `docs/implementation/`, how to consume enterprise-semantics from WSF, OpenDEA, custom systems.
+- `docs/tutorials/`, step-by-step examples.
+- `docs/glossary/`, generated from the semantic source; reviewed manually.
+- `docs/lifecycle/`, lifecycle model documentation.
 
 ## Relationship to other repositories
 
