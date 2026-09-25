@@ -1,6 +1,6 @@
 # Agentic vs Autonomous Culture Orthogonality
 
-Per ADR-ES-023 section 10 + ADR-ES-022 section 5.
+Per ADR-ES-024 section 5 + ADR-ES-022 section 5.
 
 ## Orthogonality Principle
 
