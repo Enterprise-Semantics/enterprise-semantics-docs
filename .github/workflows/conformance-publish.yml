@@ -1,0 +1,43 @@
+name: conformance-publish
+
+# Per ES-ADR-030 + ES-CR-030 (DP3 = C): the conformance section is generated,
+# never hand-maintained. This workflow runs IN the docs repo (self-commit via
+# GITHUB_TOKEN ; zero cross-repo credentials) and pulls kit manifests from the
+# public test-probe repo. Chosen over a cross-repo PAT per zero-credential-
+# exposure principle.
+
+on:
+  schedule:
+    - cron: '0 4 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          path: docs-repo
+      - name: Fetch test-probe (public, read-only)
+        uses: actions/checkout@v4
+        with:
+          repository: Enterprise-Semantics/enterprise-semantics-test-probe
+          path: test-probe
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install pyyaml
+      - name: Generate conformance section
+        run: python3 test-probe/conformance/generate_conformance.py docs-repo/conformance
+        working-directory: ${{ github.workspace }}
+      - name: Commit if changed
+        working-directory: docs-repo
+        run: |
+          git config user.name "Emmanuel A. Otchere"
+          git config user.email "emmanuel@otchere.com"
+          git add conformance/
+          git diff --cached --quiet || git commit -m "chore(conformance): nightly regeneration from kit manifests"
+          git push
