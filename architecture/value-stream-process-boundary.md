@@ -78,7 +78,7 @@ Per CR-ES-003 §8:
 
 - A Value Stream does NOT reduce to a single Process
 - A Value Stream does NOT decompose structurally into Process Stages
-- A Value Stream does NOT require linear execution ;;; branching,
+- A Value Stream does NOT require linear execution, branching,
   convergence, optional and repeated stages are permitted
 - A Value Stream does NOT define its own Workflow
 
@@ -94,7 +94,7 @@ Per CR-ES-003 §8:
 Value Stream answers "what value is realized and through what progression?"
 while Process answers "how is work organized and executed?"
 
-These are distinct questions ;;; conflating them collapses value
+These are distinct questions, conflating them collapses value
 progression into execution detail and breaks the architectural
 separation of concerns that makes Value Stream a stable semantic lens.
 
@@ -108,5 +108,5 @@ separation of concerns that makes Value Stream a stable semantic lens.
 
 ## See also
 
-- `value-stream-boundary.md` ;;; broader boundary analysis
-- `value-realization-boundary.md` ;;; value realization vs execution
+- `value-stream-boundary.md`, broader boundary analysis
+- `value-realization-boundary.md`, value realization vs execution

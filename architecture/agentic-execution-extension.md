@@ -20,14 +20,14 @@ The Agentic Execution Profile now covers:
 The Profile applies four governed characteristics to base concepts:
 
 1. Goal-directed execution under bounded autonomy
-2. AI-augmented decision-making (or its non-AI equivalent ;;; per
+2. AI-augmented decision-making (or its non-AI equivalent, per
    technology neutrality)
 3. Adaptive behavior
 4. Human governance, not human execution
 
 ## Cardinal rules
 
-- Profile is organisational only ;;; does not imply inheritance between
+- Profile is organisational only, does not imply inheritance between
   members
 - Author: Emmanuel A. Otchere
 - D-004 clean
@@ -35,15 +35,15 @@ The Profile applies four governed characteristics to base concepts:
 
 ## Architectural position
 
-Per ADR-ES-006 §14 ;;; the Profile provides discoverability and
+Per ADR-ES-006 §14, the Profile provides discoverability and
 grouping for the agentic execution semantic surface. Workflow and
 Agentic Workflow are added because they participate in agentic
-execution ;;; per the architectural boundary:
+execution, per the architectural boundary:
 
 ```
 Value Stream -> Value Stage -> Process -> Workflow -> Activity/Task
 ```
 
 The Profile was originally Established by FND-ES-AG-003 + ADR-ES-AG-001
-§3.3. The CR-ES-006 extension is additive ;;; the Profile retains its
+§3.3. The CR-ES-006 extension is additive, the Profile retains its
 Established status.

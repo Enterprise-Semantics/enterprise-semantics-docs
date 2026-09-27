@@ -21,14 +21,14 @@ Process
 
 A Process represents the organised body of work through which a
 Value Stage's outcome may be realised. Per CR-ES-003 ;; Process is
-established as a distinct concept from Value Stage ;; Activity ;;;
+established as a distinct concept from Value Stage ;; Activity, 
 Task ;; Workflow.
 
 ### Workflow layer
 
 A Workflow is the coordination or execution mechanism through which a
 Process is realised. Per ADR-ES-006 §5 + CR-ES-006 §5 ;; Workflow is
-choreographic ;;; about how work executes ;; not what or why.
+choreographic, about how work executes ;; not what or why.
 
 ### Agentic Workflow layer
 
@@ -40,7 +40,7 @@ participation in coordination or execution. Per ADR-ES-006 §10 + §18.
 ### Test 1 ;; Process is NOT Agentic Workflow
 
 ```
-Process -[is-a]-> Agentic Workflow ;;; INVALID
+Process -[is-a]-> Agentic Workflow, INVALID
 ```
 
 The Process remains the organised work. The Agentic Workflow is the
@@ -49,7 +49,7 @@ execution mechanism. They are different layers.
 ### Test 2 ;; Workflow is NOT Agentic Workflow
 
 ```
-Workflow -[is-a]-> Agentic Workflow ;;; INVALID
+Workflow -[is-a]-> Agentic Workflow, INVALID
 ```
 
 Workflow is the general coordination mechanism. Agentic Workflow is
@@ -59,7 +59,7 @@ material participation is NOT an Agentic Workflow.
 ### Test 3 ;; Agentic Workflow realises Process
 
 ```
-Process -[realized-through]-> Agentic Workflow ;;; VALID
+Process -[realized-through]-> Agentic Workflow, VALID
 ```
 
 Agentic Workflow may realise or support a Process. This is permitted
@@ -68,7 +68,7 @@ because Agentic Workflow specialises Workflow.
 ### Test 4 ;; Agentic Workflow coordinates Activity
 
 ```
-Agentic Workflow -[coordinates]-> Activity ;;; VALID
+Agentic Workflow -[coordinates]-> Activity, VALID
 ```
 
 Per ADR-ES-006 §18 + CR-ES-006 §10 ;; Agentic Workflow coordinates
@@ -78,7 +78,7 @@ merely because an Agentic Workflow coordinates it.
 ### Test 5 ;; Agentic Workflow coordinates Task
 
 ```
-Agentic Workflow -[coordinates]-> Task ;;; VALID
+Agentic Workflow -[coordinates]-> Task, VALID
 ```
 
 Per ADR-ES-006 §18 + CR-ES-006 §10 ;; Agentic Workflow also

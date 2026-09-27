@@ -1,77 +1,77 @@
-## [0.7.0] ; 2026-09-23 ; VS-D1a ;;; 4 Autonomous Operations documentation files per CR-ES-008 §21 + ADR-ES-008 §14 + §25 + §26
+## [0.7.0] ; 2026-09-23 ; VS-D1a, 4 Autonomous Operations documentation files per CR-ES-008 §21 + ADR-ES-008 §14 + §25 + §26
 
 ### Added
 
-- concepts/autonomous-operations.md ;;; 19 sections per CR-ES-008 §21
-- architecture/autonomous-operations-boundary.md ;;; 7 boundary distinctions
-- architecture/autonomous-operational-loop.md ;;; 11-step operational control loop with boundary
-- architecture/agentic-vs-autonomous-operations.md ;;; orthogonal semantic dimensions
-- relationships/autonomous-operations-relationships.md ;;; 10 canonical predicates
+- concepts/autonomous-operations.md, 19 sections per CR-ES-008 §21
+- architecture/autonomous-operations-boundary.md, 7 boundary distinctions
+- architecture/autonomous-operational-loop.md, 11-step operational control loop with boundary
+- architecture/agentic-vs-autonomous-operations.md, orthogonal semantic dimensions
+- relationships/autonomous-operations-relationships.md, 10 canonical predicates
 
 ### Cardinal rules
 
 - Author: Emmanuel A. Otchere
-- D-004 clean ;;; 0 forbidden glyphs
+- D-004 clean, 0 forbidden glyphs
 - No vendor-specific material from embargoed sources
 
-## [0.8.0] ; 2026-09-23 ; VS-D1a ;;; 5 Autonomous Value Stream documentation files per CR-ES-009 §22 + ADR-ES-009 §14 + §22 + §23
+## [0.8.0] ; 2026-09-23 ; VS-D1a, 5 Autonomous Value Stream documentation files per CR-ES-009 §22 + ADR-ES-009 §14 + §22 + §23
 
 ### Added
 
-- concepts/autonomous-value-stream.md ;;; 19 sections per CR-ES-009 §22
-- architecture/autonomous-value-stream-boundary.md ;;; 7 boundary distinctions
-- architecture/autonomous-value-realization.md ;;; 11-step value-realization boundary
-- architecture/agentic-vs-autonomous-value-stream.md ;;; orthogonal semantic dimensions
-- architecture/value-stream-autonomous-operations-boundary.md ;;; AVS <> AO boundary
-- relationships/autonomous-value-stream-relationships.md ;;; 12 canonical predicates
+- concepts/autonomous-value-stream.md, 19 sections per CR-ES-009 §22
+- architecture/autonomous-value-stream-boundary.md, 7 boundary distinctions
+- architecture/autonomous-value-realization.md, 11-step value-realization boundary
+- architecture/agentic-vs-autonomous-value-stream.md, orthogonal semantic dimensions
+- architecture/value-stream-autonomous-operations-boundary.md, AVS <> AO boundary
+- relationships/autonomous-value-stream-relationships.md, 12 canonical predicates
 
 ### Cardinal rules
 
 - Author: Emmanuel A. Otchere
-- D-004 clean ;;; 0 forbidden glyphs
+- D-004 clean, 0 forbidden glyphs
 - No vendor-specific material from embargoed sources
 
-## [0.6.0] ; 2026-09-23 ; VS-D1a ;;; 5 Agentic Operations documentation files per CR-ES-007 §19 + ADR-ES-007 §14 + §20 + §26
+## [0.6.0] ; 2026-09-23 ; VS-D1a, 5 Agentic Operations documentation files per CR-ES-007 §19 + ADR-ES-007 §14 + §20 + §26
 
 ### Added
 
-- concepts/agentic-operations.md ;;; 17 sections per CR-ES-007 §19
-- architecture/agentic-operations-boundary.md ;;; 7 boundary distinctions
-- architecture/agentic-operational-loop.md ;;; 8-step operational control loop
-- architecture/agentic-workflow-operations-boundary.md ;;; Agentic Workflow <> Agentic Operations
-- relationships/agentic-operations-relationships.md ;;; 9 canonical predicates
+- concepts/agentic-operations.md, 17 sections per CR-ES-007 §19
+- architecture/agentic-operations-boundary.md, 7 boundary distinctions
+- architecture/agentic-operational-loop.md, 8-step operational control loop
+- architecture/agentic-workflow-operations-boundary.md, Agentic Workflow <> Agentic Operations
+- relationships/agentic-operations-relationships.md, 9 canonical predicates
 
 ### Cardinal rules
 
 - Author: Emmanuel A. Otchere
-- D-004 clean ;;; 0 forbidden glyphs
+- D-004 clean, 0 forbidden glyphs
 - No vendor-specific material from embargoed sources
 
-## [0.5.0] ; 2026-09-23 ; VS-D1a ;;; 5 Agentic Workflow documentation files per CR-ES-006 §15 + §16 + §23 + ADR-ES-006 §14 + §20 + §26
+## [0.5.0] ; 2026-09-23 ; VS-D1a, 5 Agentic Workflow documentation files per CR-ES-006 §15 + §16 + §23 + ADR-ES-006 §14 + §20 + §26
 
 ### Added
 
-- concepts/agentic-workflow.md ;;; 18 sections per CR-ES-006 §22
-- architecture/agentic-workflow-boundary.md ;;; 8 boundary distinctions
-- architecture/process-workflow-agentic-boundary.md ;;; Process <> Workflow <> Agentic Workflow layer boundary
-- architecture/agentic-execution-extension.md ;;; Profile scope extension per CR-ES-006 §21
-- relationships/agentic-workflow-relationships.md ;;; 7 canonical predicates
+- concepts/agentic-workflow.md, 18 sections per CR-ES-006 §22
+- architecture/agentic-workflow-boundary.md, 8 boundary distinctions
+- architecture/process-workflow-agentic-boundary.md, Process <> Workflow <> Agentic Workflow layer boundary
+- architecture/agentic-execution-extension.md, Profile scope extension per CR-ES-006 §21
+- relationships/agentic-workflow-relationships.md, 7 canonical predicates
 
 ### Cardinal rules
 
 - Author: Emmanuel A. Otchere
-- D-004 clean ;;; 0 forbidden glyphs
+- D-004 clean, 0 forbidden glyphs
 - No vendor-specific material from embargoed sources
 
 ## [0.4.0] ; 2026-09-23 ; VS-D1a ;; 5 Agentic Value Stream documentation files (1 concept + 3 architecture + 1 relationships) per CR-ES-005 §15 + §16 + §23
 
 ### Added
 
-- concepts/agentic-value-stream.md ;;; definition + 13 sections (definition, semantic purpose, Value Stream inheritance, agentic characteristics, agentic scope, authority and intent, mixed realization, human intervention, AI boundary, automation boundary, autonomy boundary, process boundary, workflow boundary, examples, conformance, provenance)
-- architecture/agentic-value-stream-boundary.md ;;; 6 boundary distinctions (AI / Automation / Autonomous / Agentic Workflow / Agentic Operations / Process+Workflow)
-- architecture/value-stream-agentic-boundary.md ;;; Value Stream inheritance principle ;; mandatory Value Stream properties preserved
-- architecture/agentic-value-realization.md ;;; architectural hierarchy (WSF -> Value Stream -> ES Agentic Value Stream -> OpenDEA specialisation)
-- relationships/agentic-value-stream-relationships.md ;;; 3 governed predicates (specializes ;; engages ;; agent-realizes)
+- concepts/agentic-value-stream.md, definition + 13 sections (definition, semantic purpose, Value Stream inheritance, agentic characteristics, agentic scope, authority and intent, mixed realization, human intervention, AI boundary, automation boundary, autonomy boundary, process boundary, workflow boundary, examples, conformance, provenance)
+- architecture/agentic-value-stream-boundary.md, 6 boundary distinctions (AI / Automation / Autonomous / Agentic Workflow / Agentic Operations / Process+Workflow)
+- architecture/value-stream-agentic-boundary.md, Value Stream inheritance principle ;; mandatory Value Stream properties preserved
+- architecture/agentic-value-realization.md, architectural hierarchy (WSF -> Value Stream -> ES Agentic Value Stream -> OpenDEA specialisation)
+- relationships/agentic-value-stream-relationships.md, 3 governed predicates (specializes ;; engages ;; agent-realizes)
 
 ### Cardinal rules
 
@@ -83,20 +83,20 @@
 
 ### Added (5 concept docs + 3 architecture docs + 1 relationships doc)
 
-- concepts/agent.md ;;; Agent entity per CR-ES-004 §5
-- concepts/agentic.md ;;; Agentic semantic property per CR-ES-004 §6
-- concepts/intent.md ;;; Intent concept per CR-ES-004 §7
-- concepts/authority.md ;;; Authority concept per CR-ES-004 §8
-- concepts/action.md ;;; Action concept per CR-ES-004 §9
-- architecture/agentic-boundary.md ;;; Agentic vs Automation boundary per CR-ES-004 §12 + ADR-ES-004 §8
-- architecture/agentic-autonomous-boundary.md ;;; Agentic vs Autonomous boundary per CR-ES-004 §14 + ADR-ES-004 §9
-- architecture/agentic-execution-boundary.md ;;; Agentic Workflow + Operations + Value Stream boundaries per CR-ES-004 §15-§17
-- relationships/agentic-relationships.md ;;; 11 Agentic predicates table per CR-ES-004 §10
+- concepts/agent.md, Agent entity per CR-ES-004 §5
+- concepts/agentic.md, Agentic semantic property per CR-ES-004 §6
+- concepts/intent.md, Intent concept per CR-ES-004 §7
+- concepts/authority.md, Authority concept per CR-ES-004 §8
+- concepts/action.md, Action concept per CR-ES-004 §9
+- architecture/agentic-boundary.md, Agentic vs Automation boundary per CR-ES-004 §12 + ADR-ES-004 §8
+- architecture/agentic-autonomous-boundary.md, Agentic vs Autonomous boundary per CR-ES-004 §14 + ADR-ES-004 §9
+- architecture/agentic-execution-boundary.md, Agentic Workflow + Operations + Value Stream boundaries per CR-ES-004 §15-§17
+- relationships/agentic-relationships.md, 11 Agentic predicates table per CR-ES-004 §10
 
 ### Cardinal rules
 
 - Author: Emmanuel A. Otchere on all 9 files
-- D-004 clean ;;; 0 forbidden glyphs on all 9 files
+- D-004 clean, 0 forbidden glyphs on all 9 files
 - No vendor-specific material from embargoed sources
 
 # Changelog
@@ -111,34 +111,34 @@ This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.htm
 
 ### Planned
 
-- VS-D2 ;;; tests + visuals across enterprise-semantics-test-probe + enterprise-semantics-visuals (CR-ES-003 §29-§31, §28).
-- Generated Markdown views for additional concepts (Capability was a Phase 4.8 deliverable ;;; Value Stream is the next).
+- VS-D2, tests + visuals across enterprise-semantics-test-probe + enterprise-semantics-visuals (CR-ES-003 §29-§31, §28).
+- Generated Markdown views for additional concepts (Capability was a Phase 4.8 deliverable, Value Stream is the next).
 - Foundational principles documents (12 total per README).
 
 ## [0.1.0] ; 2026-09-23 ; VS-D1a Value Stream documentation
 
 ### Added
 
-- `concepts/value-stream.md` ;;; Value Stream concept documentation per CR-ES-003 §27. Canonical definition, 8 semantic characteristics, identity rules, 8 relationships, cardinal rules.
-- `concepts/value-stage.md` ;;; Value Stage concept documentation per CR-ES-003 §27. Canonical definition, 8 semantic characteristics, identity rules, 6 relationships, cardinal rules.
-- `architecture/value-stream-boundary.md` ;;; semantic boundary analysis per CR-ES-003 §27 + ADR-ES-003 §7. 12-row boundary table + 11 architectural invariants + 6 rejected alternatives.
-- `architecture/value-stream-process-boundary.md` ;;; critical Value Stream vs Process boundary per CR-ES-003 §27 + §8 + §16 + §17. Conceptual hierarchy, Workflow boundary, central distinction.
-- `architecture/value-realization-boundary.md` ;;; Value Realization vs Execution layering per CR-ES-003 §27 + §14 + ADR-ES-003 §12 + §20. Three-layer architecture (Value Realization / Execution / Implementation) + schema implications + architectural result diagram.
-- `relationships/value-stream-relationships.md` ;;; full 13-predicate vocabulary per CR-ES-003 §27 + §9 + §10. Subject/predicate/object/inverse/provenance table + per-predicate definitions.
+- `concepts/value-stream.md`, Value Stream concept documentation per CR-ES-003 §27. Canonical definition, 8 semantic characteristics, identity rules, 8 relationships, cardinal rules.
+- `concepts/value-stage.md`, Value Stage concept documentation per CR-ES-003 §27. Canonical definition, 8 semantic characteristics, identity rules, 6 relationships, cardinal rules.
+- `architecture/value-stream-boundary.md`, semantic boundary analysis per CR-ES-003 §27 + ADR-ES-003 §7. 12-row boundary table + 11 architectural invariants + 6 rejected alternatives.
+- `architecture/value-stream-process-boundary.md`, critical Value Stream vs Process boundary per CR-ES-003 §27 + §8 + §16 + §17. Conceptual hierarchy, Workflow boundary, central distinction.
+- `architecture/value-realization-boundary.md`, Value Realization vs Execution layering per CR-ES-003 §27 + §14 + ADR-ES-003 §12 + §20. Three-layer architecture (Value Realization / Execution / Implementation) + schema implications + architectural result diagram.
+- `relationships/value-stream-relationships.md`, full 13-predicate vocabulary per CR-ES-003 §27 + §9 + §10. Subject/predicate/object/inverse/provenance table + per-predicate definitions.
 
 ### Scope
 
-This release implements VS-D1a of CR-ES-003 ;;; the human-readable documentation for Value Stream + Value Stage across concepts + architecture + relationships. No concept YAML mutation, no schema mutation, no validation rule addition. The 6 documentation files are companion views of the canonical concept records (already on enterprise-semantics main after VS-A PR #2) and the 13 governed predicates (already on enterprise-semantics main after VS-B PR #5).
+This release implements VS-D1a of CR-ES-003, the human-readable documentation for Value Stream + Value Stage across concepts + architecture + relationships. No concept YAML mutation, no schema mutation, no validation rule addition. The 6 documentation files are companion views of the canonical concept records (already on enterprise-semantics main after VS-A PR #2) and the 13 governed predicates (already on enterprise-semantics main after VS-B PR #5).
 
 ### Governance
 
-- ADR-ES-003 (Proposed, governance slot 0005) ;;; ratifies the foundational Value Stream decision ;;; §7, §12, §20 are the documentation anchors.
-- CR-ES-003 (Proposed, governance slot 0011) ;;; carries §27 documentation requirements + §7-§20 source material.
-- FND-ES-AG-008 (Established 2026-09-22) ;;; establishes the WSF grounding classification referenced throughout.
+- ADR-ES-003 (Proposed, governance slot 0005), ratifies the foundational Value Stream decision, §7, §12, §20 are the documentation anchors.
+- CR-ES-003 (Proposed, governance slot 0011), carries §27 documentation requirements + §7-§20 source material.
+- FND-ES-AG-008 (Established 2026-09-22), establishes the WSF grounding classification referenced throughout.
 
 ### Cardinal rules applied
 
-- Author: Emmanuel A. Otchere (cardinal author rule, 2026-09-23) ;;; present in all 6 new files.
+- Author: Emmanuel A. Otchere (cardinal author rule, 2026-09-23), present in all 6 new files.
 - No en-dash (U+2013) or em-dash (U+2014) in any new file (D-004 dash rule). Section dividers use `;;;` boundary lines per existing convention.
 - No vendor-specific material from embargoed sources in any new file (cardinal embargo, 2026-09-22).
 - ES is sourced from SDO-neutral standardisation only (ISO/IEC, ITU-T, ETSI, NIST).

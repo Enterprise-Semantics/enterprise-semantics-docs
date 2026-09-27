@@ -22,8 +22,8 @@ Value Stream predicates.
 
 ## Notes
 
-- `Stakeholder Value` ;;; `Policy` ;;; `Value Objective` ;;;
-  `Stakeholder Outcome` ;;; and `Value Context` are
+- `Stakeholder Value`, `Policy`, `Value Objective`, 
+  `Stakeholder Outcome`, and `Value Context` are
   forward-references ;; not yet canonicalised as
   Enterprise-Semantics concept records. Per CR-ES-009 §3 ;; they
   remain governed as external concepts.

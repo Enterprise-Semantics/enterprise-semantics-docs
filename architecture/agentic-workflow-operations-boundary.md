@@ -34,7 +34,7 @@ Per ADR-ES-007 §23 + CR-ES-007 §10 ;; a multi-dimension comparison:
 Agentic Operations -[is-a]-> Agentic Workflow ;; INVALID
 ```
 
-Agentic Operations uses Agentic Workflows ;;; but is not one. A
+Agentic Operations uses Agentic Workflows, but is not one. A
 Workflow does not become an Operating Mode merely because it
 contains an Agent.
 

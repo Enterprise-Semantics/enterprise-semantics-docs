@@ -21,7 +21,7 @@ predicates.
 - The `process-realized-through` predicate is namespaced to
   disambiguate from `value-stream-realized-through` and
   `capability-realized-through`.
-- `Activity`, `Task`, `Outcome` are forward-references ;;; they are not
+- `Activity`, `Task`, `Outcome` are forward-references, they are not
   yet canonicalised as Enterprise-Semantics concept records. Per
   CR-ES-006 §6 + §10 ;; they remain governed as external concepts.
 - The Agent, Intent, Authority, and Agent semantics are inherited

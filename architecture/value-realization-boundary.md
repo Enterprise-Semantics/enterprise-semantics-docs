@@ -117,5 +117,5 @@ Realization Boundary.
 
 ## See also
 
-- `value-stream-boundary.md` ;;; semantic boundaries
-- `value-stream-process-boundary.md` ;;; Value Stream vs Process
+- `value-stream-boundary.md`, semantic boundaries
+- `value-stream-process-boundary.md`, Value Stream vs Process

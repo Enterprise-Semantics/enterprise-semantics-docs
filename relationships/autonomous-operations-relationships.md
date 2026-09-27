@@ -20,8 +20,8 @@ Operations predicates.
 
 ## Notes
 
-- `Policy` ;;; `Operational Objective` ;;; `Operational Context` ;;;
-  `Operational Outcome` ;;; and `Human / Authority` are
+- `Policy`, `Operational Objective`, `Operational Context`, 
+  `Operational Outcome`, and `Human / Authority` are
   forward-references ;; not yet canonicalised as Enterprise-Semantics
   concept records. Per CR-ES-008 §5 ;; they remain governed as
   external concepts.

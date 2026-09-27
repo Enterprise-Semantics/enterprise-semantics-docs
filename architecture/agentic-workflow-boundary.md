@@ -14,7 +14,7 @@ the rejected alternatives (ADR-ES-006 §24.1..§24.6).
 
 ### AWF-INV-001 ;; Agentic Workflow != AI Workflow
 
-Per ADR-ES-006 §14 + §24.1. AI is implementation technology ;;; not
+Per ADR-ES-006 §14 + §24.1. AI is implementation technology, not
 the semantic basis of agency. An Agentic Workflow may be implemented
 using AI-based Agents ;; rule-based Agents ;; software Agents ;; or
 socio-technical Agents.
@@ -22,15 +22,15 @@ socio-technical Agents.
 ### AWF-INV-002 ;; Agentic Workflow != Automated Workflow
 
 Per ADR-ES-006 §13 + §24.2. Automation is execution according to
-predefined mechanisms. An Agentic Workflow involves interpretation ;;;
+predefined mechanisms. An Agentic Workflow involves interpretation, 
 action/path selection ;; and dynamic decision-making. Automation does
 not establish agentic interpretation.
 
 ### AWF-INV-003 ;; Agentic Workflow != Autonomous Workflow
 
 Per ADR-ES-006 §17 + §24.3. Agency does not imply autonomy. An
-Agentic Workflow operates with human approval ;; human escalation ;;;
-constrained authority ;; predefined policies ;; supervised execution ;;;
+Agentic Workflow operates with human approval ;; human escalation, 
+constrained authority ;; predefined policies ;; supervised execution, 
 and externally established objectives.
 
 ### AWF-INV-004 ;; Agentic Workflow != Process
@@ -61,7 +61,7 @@ construct.
 ### AWF-INV-007 ;; Agentic Workflow != Value Stream
 
 Per AWF-CON-012. Agentic Workflow is not a Value Stream. Workflow is
-the execution layer ;;; Value Stream is the value-realisation layer.
+the execution layer, Value Stream is the value-realisation layer.
 
 ### AWF-INV-008 ;; Agentic Workflow != Agent
 
