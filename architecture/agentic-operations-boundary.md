@@ -14,15 +14,15 @@ rejected alternatives (ADR-ES-007 §28.1..§28.7).
 
 ### AOP-INV-001 ;; Agentic Operations != AI Operations
 
-Per ADR-ES-007 §14 + §28.1. AI is implementation technology ;;; not
-the semantic basis of agency. An Agentic Operations may use AI ;;;
+Per ADR-ES-007 §14 + §28.1. AI is implementation technology, not
+the semantic basis of agency. An Agentic Operations may use AI, 
 non-AI implementations are equally valid.
 
 ### AOP-INV-002 ;; Agentic Operations != Automated Operations
 
 Per ADR-ES-007 §13 + §28.2. Automation is execution according to
 predefined mechanisms. An Agentic Operations involves operational
-sensing ;; interpretation ;;; dynamic decision ;;; and runtime
+sensing ;; interpretation, dynamic decision, and runtime
 adaptation. Automation does not establish agentic behavior.
 
 ### AOP-INV-003 ;; Agentic Operations != Agentic Workflow

@@ -21,25 +21,25 @@ progression is achieved.
 
 A Value Stream:
 
-1. is end-to-end ;;; spans the journey from initiating condition to
+1. is end-to-end, spans the journey from initiating condition to
    stakeholder value realization
-2. is value-oriented ;;; its stages contribute to stakeholder value
-3. is stakeholder-centric ;;; defined in relation to a stakeholder
-4. is cross-boundary ;;; may cross organizational, functional, process,
+2. is value-oriented, its stages contribute to stakeholder value
+3. is stakeholder-centric, defined in relation to a stakeholder
+4. is cross-boundary, may cross organizational, functional, process,
    system, service, ecosystem boundaries
-5. is implementation-independent ;;; identity does not depend on
+5. is implementation-independent, identity does not depend on
    particular implementation
-6. is stage-oriented ;;; composed of meaningful value stages
-7. is outcome-oriented ;;; terminates in or contributes to stakeholder
+6. is stage-oriented, composed of meaningful value stages
+7. is outcome-oriented, terminates in or contributes to stakeholder
    outcomes
-8. is evolvable ;;; may change implementation without losing identity
+8. is evolvable, may change implementation without losing identity
 
 ## Identity
 
 Canonical identifier: `ES:CONCEPT:value-stream`
 
 WSF grounding: Tier 1 Kernel Reference + ES-canonical novelty. WSF
-grounds the kernel Value concept at Tier 1 ;;; ES adds the Stream
+grounds the kernel Value concept at Tier 1, ES adds the Stream
 construct that WSF does not define. Per FND-ES-AG-008 §1.3.
 
 The Value Stream identifier shall remain stable when implementation
@@ -87,11 +87,11 @@ Per CR-ES-003 §11:
 
 ## See also
 
-- `value-stage.md` ;;; the Value Stage concept
-- `architecture/value-stream-boundary.md` ;;; semantic boundaries
-- `architecture/value-stream-process-boundary.md` ;;; Value Stream
+- `value-stage.md`, the Value Stage concept
+- `architecture/value-stream-boundary.md`, semantic boundaries
+- `architecture/value-stream-process-boundary.md`, Value Stream
   vs Process
-- `architecture/value-realization-boundary.md` ;;; value realization
+- `architecture/value-realization-boundary.md`, value realization
   boundary
-- `relationships/value-stream-relationships.md` ;;; full relationship
+- `relationships/value-stream-relationships.md`, full relationship
   vocabulary

@@ -1,6 +1,6 @@
 # Agentic Relationships
 
-Per CR-ES-004 §10 + ADR-ES-004 §14 ;;; the 11 governed Agentic predicates.
+Per CR-ES-004 §10 + ADR-ES-004 §14, the 11 governed Agentic predicates.
 
 ## Predicate table
 
@@ -22,25 +22,25 @@ Per CR-ES-004 §10 + ADR-ES-004 §14 ;;; the 11 governed Agentic predicates.
 
 ### Agent subject (8 predicates)
 
-The Agent is the primary actor ;;; the 8 Agent predicates cover: interpretation (interprets, receives), pursuit (pursues), authority-bounded action (acts-within), action selection/coordination (selects, coordinates), outcome production (agent-produces), and adaptation (adapts-to).
+The Agent is the primary actor, the 8 Agent predicates cover: interpretation (interprets, receives), pursuit (pursues), authority-bounded action (acts-within), action selection/coordination (selects, coordinates), outcome production (agent-produces), and adaptation (adapts-to).
 
 ### Intent subject (1 predicate)
 
-`Intent guides Action` ;;; Intent informs Action without prescribing it.
+`Intent guides Action`, Intent informs Action without prescribing it.
 
 ### Authority subject (1 predicate)
 
-`Authority constrains Action` ;;; Authority limits Action's allowed scope.
+`Authority constrains Action`, Authority limits Action's allowed scope.
 
 ### Action subject (1 predicate)
 
-`Action action-produces Outcome` ;;; Action results in the intended state.
+`Action action-produces Outcome`, Action results in the intended state.
 
 ## Namespacing notes
 
 Two predicates are namespaced to disambiguate by subject_type:
 
-- `produces` ;;; Value Stream subject (CR-ES-003 §10.5) vs `agent-produces` (Agent subject, CR-ES-004 §10) vs `action-produces` (Action subject, CR-ES-004 §10)
+- `produces`, Value Stream subject (CR-ES-003 §10.5) vs `agent-produces` (Agent subject, CR-ES-004 §10) vs `action-produces` (Action subject, CR-ES-004 §10)
 - Pattern follows `stage-realized-through` (Value Stage subject, VS-B) and `capability-realized-through` (Capability subject)
 
 ## Cross-references
@@ -50,7 +50,7 @@ Two predicates are namespaced to disambiguate by subject_type:
 - [Intent](../concepts/intent.md)
 - [Authority](../concepts/authority.md)
 - [Action](../concepts/action.md)
-- [Value Stream Relationships](./value-stream-relationships.md) ;;; parallel predicate table for CR-ES-003
+- [Value Stream Relationships](./value-stream-relationships.md), parallel predicate table for CR-ES-003
 
 ## Governance
 

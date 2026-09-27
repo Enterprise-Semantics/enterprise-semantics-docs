@@ -5,9 +5,9 @@ Per CR-ES-007 §9 + ADR-ES-007 §17.
 ## Scope
 
 The agentic operational control loop is the canonical semantic loop
-that governs how Agentic Operations senses ;;; interprets ;;; decides
-;;; coordinates ;;; acts ;;; observes ;;; and adapts within defined
-intent ;;; authority ;;; and policy boundaries.
+that governs how Agentic Operations senses, interprets, decides
+- coordinates, acts, observes, and adapts within defined
+intent, authority, and policy boundaries.
 
 ## The 8-step loop
 
@@ -38,7 +38,7 @@ Operational Context
         +-----------------> Operational Context
 ```
 
-The loop iterates continuously ;; bounded by intent ;;; authority ;;;
+The loop iterates continuously ;; bounded by intent, authority, 
 and policy boundaries.
 
 ## Bounded adaptive operating mode
@@ -75,7 +75,7 @@ participate in one or more points in the loop for the Operations to
 qualify as Agentic Operations.
 
 The material-participation criterion requires operational-level
-agentic interpretation ;;; decision ;;; coordination ;;; adaptation ;;
+agentic interpretation, decision, coordination, adaptation ;;
 ;; or execution ;; not merely the presence of an Agent within an
 Operational Context.
 

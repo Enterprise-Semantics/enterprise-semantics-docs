@@ -45,7 +45,7 @@ The concepts are orthogonal per ADR-ES-008 §9 + §26 + CR-ES-008 §10.
 Agentic Operations -[may exhibit]-> Autonomous behavior ;; VALID
 ```
 
-Per ADR-ES-008 §9 + CR-ES-008 §10 ;;; Agentic Operations may exhibit
+Per ADR-ES-008 §9 + CR-ES-008 §10, Agentic Operations may exhibit
 autonomous behavior ;; but this does not establish a specialisation
 relationship.
 
@@ -57,8 +57,8 @@ Autonomous Operations -[uses]-> Agentic Workflow ;; VALID
 Autonomous Operations -[engages]-> Agent ;; VALID
 ```
 
-Per ADR-ES-008 §12 + §17 + CR-ES-008 §11 ;;; Autonomous Operations
-may use workflows (conventional or Agentic) and engage Agents ;;; but
+Per ADR-ES-008 §12 + §17 + CR-ES-008 §11, Autonomous Operations
+may use workflows (conventional or Agentic) and engage Agents, but
 does not specialise any of them.
 
 ## Cardinal rules

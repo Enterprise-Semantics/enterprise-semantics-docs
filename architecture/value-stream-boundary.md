@@ -11,14 +11,14 @@ Value Stream is distinguished from the following adjacent concepts:
 
 | Concept | Semantic meaning | Boundary |
 |---|---|---|
-| Capability | Enduring ability | Value Stream uses/enables capabilities ;;; it is not itself an ability |
+| Capability | Enduring ability | Value Stream uses/enables capabilities, it is not itself an ability |
 | Process | Organized execution/transformation | Processes realize activities within the Value Stream |
 | Function | Area or purpose of activity | Functions may participate in multiple Value Streams |
 | Service | Means of providing value or capability | Services may support one or more Value Stream stages |
 | Product | Defined offering/proposition | Products may be the subject or output of Value Streams |
-| Workflow | Coordinated execution flow | Workflow executes or coordinates work ;;; Value Stream describes value progression |
+| Workflow | Coordinated execution flow | Workflow executes or coordinates work, Value Stream describes value progression |
 | Activity | Unit of work | Activities contribute to stage realization |
-| Outcome | Result achieved | Outcome represents a resulting state ;;; Value Stream represents the journey toward it |
+| Outcome | Result achieved | Outcome represents a resulting state, Value Stream represents the journey toward it |
 | Value | Worth/benefit realized | Value Stream provides the progression through which value is realized |
 | Organization | Social/structural entity | Organizations participate in or enable Value Streams |
 | System | Organized technical/socio-technical construct | Systems implement or support Value Stream execution |
@@ -26,7 +26,7 @@ Value Stream is distinguished from the following adjacent concepts:
 
 The central distinction is:
 
-Value Stream describes the end-to-end progression of value ;;; Process
+Value Stream describes the end-to-end progression of value, Process
 describes execution within that progression.
 
 ## Architectural Invariants
@@ -49,20 +49,20 @@ Per ADR-ES-003 §32:
 
 Per ADR-ES-003 §31:
 
-- 31.1 Treat Value Stream as a Process ;;; rejected because Process
+- 31.1 Treat Value Stream as a Process, rejected because Process
   represents execution whereas Value Stream represents end-to-end value
   progression.
-- 31.2 Treat Value Stream as a Process Group ;;; rejected because
+- 31.2 Treat Value Stream as a Process Group, rejected because
   Process Group is organizational/classification construct for processes.
-- 31.3 Treat Value Stream as a Capability ;;; rejected because
+- 31.3 Treat Value Stream as a Capability, rejected because
   Capability represents enduring ability rather than value progression.
-- 31.4 Treat Value Stream as a Service ;;; rejected because Service
+- 31.4 Treat Value Stream as a Service, rejected because Service
   represents a means of providing value rather than the complete
   end-to-end journey.
-- 31.5 Define Value Stream only through Value Stages ;;; insufficient
+- 31.5 Define Value Stream only through Value Stages, insufficient
   because Value Stream must also establish stakeholder, initiating
   condition, endpoint, value realization.
-- 31.6 Make Agentic behavior foundational to Value Stream ;;; rejected
+- 31.6 Make Agentic behavior foundational to Value Stream, rejected
   because traditional Value Streams must remain semantically valid
   independently of agentic or autonomous execution.
 
@@ -76,7 +76,7 @@ Per ADR-ES-003 §31:
 
 ## See also
 
-- `value-stream-process-boundary.md` ;;; the critical Value Stream vs
+- `value-stream-process-boundary.md`, the critical Value Stream vs
   Process boundary in detail
-- `value-realization-boundary.md` ;;; value realization architectural
+- `value-realization-boundary.md`, value realization architectural
   boundary
