@@ -1,6 +1,6 @@
 # Agentic Enterprise vs Autonomous Enterprise
 
-Per CR-ES-010 §13 + ADR-ES-010 §11 + ADR-ES-011 §11 + §13.
+Per CR-ES-011 §19 + ADR-ES-011 §11 + §13.
 
 ## Scope
 
@@ -13,11 +13,12 @@ document preserves the distinction between them.
 Per ADR-ES-010 §5 + §11 + ADR-ES-011 §5 + §11:
 
 | Dimension      | Meaning
-|---------------  | --------------------------------------------------------------
-| Agentic         | How behavior is performed through interpretation, action
-|                | selection, coordination, and adaptation.
-| Autonomous      | The degree to which behavior can progress independently
-|                | without human intervention for every decision / action.
+|---------------  | ----------------------------------------------------
+| Agentic         | How behavior is performed through interpretation,
+|                | action selection, coordination, and adaptation.
+| Autonomous      | The degree to which behavior can progress
+|                | independently without human intervention for every
+|                | decision or action.
 | AI              | A technological or computational capability.
 | Automation      | A mechanism for executing predefined behavior.
 
@@ -27,9 +28,6 @@ Therefore:
 - Autonomous != Agentic
 - Autonomous != AI
 - Autonomous != Automation
-
-This is a foundational invariant that must be preserved across all
-subsequent ADRs and CRs.
 
 ## The orthogonality matrix
 
@@ -44,24 +42,23 @@ An enterprise may be in one of four states:
 | No        | Yes          | Autonomous Enterprise
 | Yes       | Yes          | Agentic + Autonomous Enterprise
 
-The fourth state is a valid combination of semantic characteristics.
-It does NOT result in creation of a new canonical concept. The two
-specialisations are independent semantic dimensions that may coexist
-on the same enterprise instance.
+The fourth state is a valid combination of semantic characteristics
+per AE-AUTO-CON-013 + AE-AUTO-CON-014. It does NOT result in creation
+of a new canonical concept.
 
 ## Comparison
 
-Per CR-ES-010 §13 + ADR-ES-010 §11 + ADR-ES-011 §11:
+Per CR-ES-011 §19 + ADR-ES-010 §11 + ADR-ES-011 §11:
 
 | Dimension                 | Agentic Enterprise           | Autonomous Enterprise
 |--------------------------  | ---------------------------  | ---------------------------
 | Primary semantic dimension| Agentic behavior              | Independent progression
 | Core question              | How is behavior performed?   | Can behavior progress
 |                            |                               | independently?
-| Intent                     | Delegated / established intent| Defined enterprise objective
+| Intent                     | Delegated or established intent| Defined enterprise objective
 | Decision                   | Interpretation and action     | Independent decision
 |                            | selection                     | progression
-| Action                     | Agentic selection /           | Independent authorized
+| Action                     | Agentic selection /           | Independent authorised
 |                            | coordination                  | execution
 | Human participation        | Permitted                     | Permitted
 | AI requirement              | No                            | No
@@ -79,31 +76,22 @@ Per CR-ES-010 §13 + ADR-ES-010 §11 + ADR-ES-011 §11:
 Per ADR-ES-010 §13 + ADR-ES-011 §13:
 
 ```
-AE-CON-012    Agentic Enterprise does not imply Autonomous Enterprise
-AE-NEG-016    Agentic Enterprise implies Autonomous Enterprise (FALSE)
-AE-AUTO-CON   Autonomous Enterprise does not imply Agentic Enterprise
-              (parallel invariant from ADR-ES-011 §13)
+AE-CON-012       Agentic Enterprise does not imply Autonomous Enterprise
+AE-NEG-016       Agentic Enterprise implies Autonomous Enterprise (FALSE)
+AE-AUTO-CON-013  Autonomous Enterprise does not specialise Agentic Enterprise
+AE-AUTO-NEG-009  Agentic Enterprise automatically becomes Autonomous Enterprise (FALSE)
 ```
-
-Both invariants must be preserved in the implementation. Neither
-dimension reduces to the other. They are orthogonal specialisations of
-Enterprise per ADR-ES-011 §11.
 
 ## Architectural position
 
 Per ADR-ES-010 §4 + ADR-ES-011 §11:
 
 ```
-                          Enterprise
-                              |
-                +-------------+-------------+
-                |                           |
-                v                           v
-        Agentic Enterprise       Autonomous Enterprise
-                |                           |
-                +-------------+-------------+
-                              |
-                enterprise-level orthogonal modes
+Enterprise
+   |
+   +-- Agentic Enterprise
+   |
+   +-- Autonomous Enterprise
 ```
 
 The two concepts may coexist on the same enterprise instance. The
@@ -115,5 +103,4 @@ concept.
 
 - Author: Emmanuel A. Otchere (cardinal author rule, 2026-09-24).
 - D-004: zero en-dash, zero em-dash, zero U+2E3B.
-- Vendor-specific embargo: zero references to material from embargoed
-  sources.
+- Vendor-specific embargo: zero references.
