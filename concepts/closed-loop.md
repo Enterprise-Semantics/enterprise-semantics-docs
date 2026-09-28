@@ -1,11 +1,11 @@
 # Closed Loop ; Concept
 
-> Status: Established in ES-035. Semantic Version: 2.8.0.
-> Base: wsf:ClosedLoop (ADR-WSF-38, Baseline).
+> Status: Established in ES-034. Semantic Version: 2.10.0.
+> Per ES-ADR-034 + CR-ES-034.
 
 ## Definition
 
-A Closed Loop is a control structure with four stages (sense, decide, act, learn) connected by feedback such that the output of act influences subsequent sense iterations.
+Per ES-ADR-034 section 2.
 
 ## Author
 
