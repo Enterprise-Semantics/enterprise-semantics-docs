@@ -4,7 +4,7 @@
 
 ## Disposition
 
-Profile family ;;; canonical-reject per AI boundary rule.
+Profile family. Canonical-reject per AI boundary rule.
 
 ## Author
 
